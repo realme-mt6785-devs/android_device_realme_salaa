@@ -72,7 +72,7 @@ odm                              /odm           ext4   ro       wait,logical,fir
 
 # External Storage
 /devices/platform/externdevice* auto               auto defaults                                                 voldmanaged=sdcard1:auto
-/devices/platform/usb3_xhci*    auto               vfat defaults                                                 voldmanaged=usbotg:auto
+/devices/platform/usb3_xhci*    auto               auto defaults                                                 voldmanaged=usbotg:auto
 
 # ZRAM
 /dev/block/zram0                none               swap defaults                                                 zramsize=55%,max_comp_streams=8,zram_backingdev_size=512M
