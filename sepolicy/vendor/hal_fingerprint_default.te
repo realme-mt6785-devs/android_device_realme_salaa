@@ -9,6 +9,8 @@ allow hal_fingerprint_default oplus_display_device:chr_file rw_file_perms;
 allow hal_fingerprint_default tee_device:chr_file rw_file_perms;
 allow hal_fingerprint_default mobicore_user_device:chr_file rw_file_perms;
 allow hal_fingerprint_default vendor_sysfs_graphics:file w_file_perms;
+allow hal_fingerprint_default sysfs_fingerprint:file rw_file_perms;
+allow hal_fingerprint_default sysfs_fingerprint:dir r_dir_perms;
 
 # Allow Goodix HAL to find calibration data
 allow hal_fingerprint_default mnt_vendor_file:dir search;
