@@ -24,6 +24,7 @@ genfscon sysfs /kernel/oplus_display                u:object_r:vendor_sysfs_grap
 # Fingerprint
 genfscon proc /fp_id                                u:object_r:vendor_proc_fingerprint:s0
 genfscon proc /fp_kernel_event                      u:object_r:vendor_proc_fingerprint:s0
+genfscon sysfs /devices/platform/fpc_interrupt      u:object_r:sysfs_fingerprint:s0
 
 # NFC
 genfscon proc /oplus_nfc/chipset                    u:object_r:vendor_proc_nfc_chipset:s0
