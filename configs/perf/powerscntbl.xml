@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SCNTABLE>
     <scenario powerhint="INTERACTION">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1075000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1162000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1618000"></data>
+        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1419000"></data>
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_0" param1="3000000"></data>
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="50"></data>
