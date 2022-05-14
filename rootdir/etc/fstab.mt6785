@@ -128,4 +128,4 @@ odm /odm ext4 ro wait,,logical,first_stage_mount,nofail
 /dev/block/by-name/vbmeta /vbmeta emmc defaults defaults
 
 # ZRAM
-/dev/block/zram0                none               swap defaults                                                 zramsize=55%,max_comp_streams=8
+/dev/block/zram0                none               swap defaults                                                 zramsize=55%,max_comp_streams=8,zram_backingdev_size=512M
