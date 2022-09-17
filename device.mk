@@ -303,6 +303,9 @@ PRODUCT_PACKAGES += \
     ueventd.mtk.rc \
     ueventd.oplus.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6785.rc
+
 # Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor \
