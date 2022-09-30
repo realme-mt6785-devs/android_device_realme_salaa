@@ -8,5 +8,7 @@
         <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
         <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
 
+        <int name="lte_plus_threshold_bandwidth_khz_int" value="0"/>
+
     </carrier_config>
 </carrier_config_list>
