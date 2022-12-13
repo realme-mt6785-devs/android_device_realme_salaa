@@ -124,7 +124,8 @@ PRODUCT_PACKAGES += \
     meta_init.rc \
     multi_init.rc \
     fstab.mt6785 \
-    ueventd.mtk.rc
+    ueventd.mtk.rc \
+    ueventd.oplus.rc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
