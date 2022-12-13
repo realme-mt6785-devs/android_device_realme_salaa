@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
     ueventd.mtk.rc \
     ueventd.oplus.rc
 
+# Soundtrigger
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.3-impl
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
