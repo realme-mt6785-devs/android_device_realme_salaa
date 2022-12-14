@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
     meta_init.rc \
     multi_init.rc \
     fstab.mt6785 \
+    fstab.mt6785_ramdisk \
     ueventd.mtk.rc \
     ueventd.oplus.rc
 
