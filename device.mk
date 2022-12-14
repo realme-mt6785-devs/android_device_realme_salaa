@@ -348,7 +348,8 @@ PRODUCT_PACKAGES += \
     fstab.mt6785 \
     fstab.mt6785_ramdisk \
     ueventd.mtk.rc \
-    ueventd.oplus.rc
+    ueventd.oplus.rc \
+    nfc_detect.sh
 
 PRODUCT_PACKAGES += \
     init.recovery.mt6785.rc
