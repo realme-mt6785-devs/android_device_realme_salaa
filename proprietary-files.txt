@@ -4292,6 +4292,16 @@ vendor/lib64/libvcodecdrv_header_stub.so
 vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
 
+# NFC - from RMX3085_11_C.12
+odm/etc/init/init.pn8x.nfc.rc|5d568e326250eba9d9f8a555287a969aadc1be1d
+odm/etc/nfc/libnfc-nxp.conf_20682:vendor/etc/libnfc-nxp.conf|d2bc7b3cf536f8f16db67cf67ac06a64548a5f05
+odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf:odm/etc/libnfc-nxp-pnscr.conf|17d120a63a2d1e63fbb12262807e03c469c2b233
+odm/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
+odm/lib/libpn557_fw.so|5fd4d17960d258563557d47d70c4d9d11a79fd15
+odm/lib/libpnscr2.so|55ef2b499a01f6e202a15449301c741a3818c863
+odm/lib/libsn100u_fw.so|4adda2c9449cdc8f66fc3c653153f8b69c7dc78c
+odm/lib64/libpnscr2.so|173158a03f630a88bdb720066a54029184eea6e6
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon
