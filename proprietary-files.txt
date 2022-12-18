@@ -2266,8 +2266,6 @@ vendor/etc/camera/license.lic
 vendor/etc/camera/merged_model_post
 
 # Charger
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
 odm/bin/hw/vendor.oplus.hardware.charger@1.0-service
 odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc
 odm/etc/permissions/vendor-oplus-hardware-charger.xml
@@ -4093,6 +4091,12 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.fpsgo.rc
 vendor/etc/init/init.gps_drv.rc
+
+# Kernel Power Off Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib64/libshowlogo.so
+lib64/libsysenv_system.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic
