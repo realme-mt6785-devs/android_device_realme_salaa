@@ -347,6 +347,7 @@ PRODUCT_PACKAGES += \
     init.modem.rc \
     init.mt6785.rc \
     init.mt6785.usb.rc \
+    init.nfc_detect.rc \
     init.project.rc \
     init.sensor_1_0.rc \
     init_connectivity.rc \
