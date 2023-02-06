@@ -83,3 +83,4 @@ persist.vendor.wfc.sys_wfc_support=1
 
 # Zygote
 ro.zygote.preload.enable=0
+zygote.critical_window.minute=10
