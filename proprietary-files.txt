@@ -4047,6 +4047,8 @@ framework/mediatek-ims-legacy.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
 framework/mediatek-wfo-legacy.jar
+-framework/oplus-framework-telephony.jar
+-framework/oplus-framework.jar
 lib/libmtk_vt_wrapper.so
 lib/libmtkavenhancements.so
 lib/libmtkperf_client.so
