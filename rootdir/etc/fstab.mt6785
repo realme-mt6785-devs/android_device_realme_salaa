@@ -112,7 +112,7 @@ odm /odm ext4 ro wait,,logical,first_stage_mount,nofail
 /dev/block/by-name/spmfw /spmfw emmc defaults defaults
 
 
-
+/dev/block/bootdevice/by-name/custom                    /my_custom           ext4    ro,barrier=1,discard    wait
 
 
 /dev/block/by-name/audio_dsp /audio_dsp emmc defaults defaults
