@@ -49,19 +49,11 @@ vendor/etc/oplus_avb.pubkey
 
 # Audio
 odm/etc/audio/awinic/AW_DSP.bin
-odm/etc/dirac/Dirac_Support_Apps.xml
-odm/etc/dirac/diracmobile.config
-odm/etc/dirac/diracvdd.bin
 odm/firmware/awinic_haptic_gun_params.bin
 odm/firmware/awinic_haptic_params.bin
 odm/lib/soundfx/awinic.haptic.effect.so
-odm/lib/soundfx/libdirac.so
-odm/lib/soundfx/libdiraceffect.so
 odm/lib/soundfx/libhaptic_effect.so
-odm/lib/libDiracAPI_SHARED.so
 odm/lib/libawinicsmartpaparse.so
-odm/lib/libdiracapwrapper.so
-odm/lib/libdiracgefwrapper.so
 odm/lib64/libawinicsmartpaparse.so
 vendor/bin/atci_service
 vendor/bin/atcid
