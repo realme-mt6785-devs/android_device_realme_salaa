@@ -28,6 +28,9 @@ type vendor_proc_fingerprint, fs_type, proc_type;
 # NFC
 type vendor_proc_nfc_chipset, fs_type, proc_type;
 
+# OTG
+type vendor_sysfs_otg_switch, fs_type, sysfs_type;
+
 # Sensors
 type vendor_proc_oplus_sensor_feature, fs_type, proc_type;
 type vendor_proc_oplus_sensor_param, fs_type, proc_type;
