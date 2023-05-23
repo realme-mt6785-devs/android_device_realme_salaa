@@ -28,6 +28,9 @@ genfscon proc /fp_kernel_event                      u:object_r:vendor_proc_finge
 # NFC
 genfscon proc /oplus_nfc/chipset                    u:object_r:vendor_proc_nfc_chipset:s0
 
+# OTG
+genfscon sysfs /devices/virtual/oplus_chg/usb/otg_switch u:object_r:vendor_sysfs_otg_switch:s0
+
 # Sensors
 genfscon proc /oplusSensorFeature                   u:object_r:vendor_proc_oplus_sensor_feature:s0
 genfscon proc /oplusCustom/Sensor                   u:object_r:vendor_proc_oplus_sensor_feature:s0
