@@ -2806,12 +2806,6 @@ vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/etc/init/init.fmradio_drv.rc
 vendor/etc/init/init.gps_drv.rc
 
-# Kernel Power Off Charging (KPOC)
-bin/kpoc_charger
-etc/init/kpoc_charger.rc
-lib64/libshowlogo.so
-lib64/libsysenv_system.so
-
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service

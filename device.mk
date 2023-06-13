@@ -145,7 +145,6 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0 \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
@@ -183,10 +182,6 @@ PRODUCT_PACKAGES += \
     libsoft_attestation_cert.vendor:64 \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl
-
-# KPOC
-PRODUCT_PACKAGES += \
-    libsuspend
 
 # Lights
 PRODUCT_PACKAGES += \
