@@ -10,6 +10,9 @@ ro.config.vc_call_vol_steps=15
 # Brand
 Build.BRAND=MTK
 
+# Charger
+ro.charger.enable_suspend=true
+
 # Display
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
