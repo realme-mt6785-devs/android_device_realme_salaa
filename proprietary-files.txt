@@ -4437,11 +4437,13 @@ odm/lib64/libhwm-oplus.so
 odm/lib64/oplus.sensors.ssc.so
 odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so
 vendor/etc/sensors/hals.conf
+vendor/lib/libsensorndkbridge.so:vendor/lib/libsensorndkbridge-hidl.so
 vendor/lib/libhwm.so
 vendor/lib/libimgsensorca.so
 vendor/lib/librgbwlightsensor.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.mt6785.so
+vendor/lib64/libsensorndkbridge.so:vendor/lib64/libsensorndkbridge-hidl.so
 vendor/lib64/libhwm-oplus.so
 vendor/lib64/libhwm.so
 vendor/lib64/libimgsensorca.so
