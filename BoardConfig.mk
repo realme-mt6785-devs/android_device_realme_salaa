@@ -130,6 +130,7 @@ VENDOR_SECURITY_PATCH := 2023-07-05
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
