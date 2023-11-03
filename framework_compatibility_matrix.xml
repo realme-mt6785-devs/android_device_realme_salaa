@@ -362,14 +362,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.misc</name>
-    <version>1.0</version>
-    <interface>
-        <name>IOplusMisc</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.oplus.hardware.mtkmodemaci</name>
     <version>1.0</version>
     <interface>

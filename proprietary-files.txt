@@ -3708,6 +3708,7 @@ vendor/bin/lib3a.ccu.ddr
 vendor/bin/lib3a.ccu.dm
 vendor/bin/lib3a.ccu.pm
 vendor/etc/FV-SAM-MTK2.dat
+vendor/etc/MNL_Config.xml
 vendor/etc/default_pd_calibration.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_PLS_PS_ONLY.bin
@@ -4410,6 +4411,9 @@ vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
+# Reserve (OPLUS)
+odm/etc/init/init.oplus.reserve.rc
+
 # Samsung
 odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml
 odm/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml
@@ -4567,6 +4571,7 @@ vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermal_manager.rc
 vendor/etc/init/init.thermalloadalgod.rc
 vendor/etc/fstb.cfg
+vendor/etc/mpe.conf
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal_hal.so
 vendor/lib/libthermalalgo.so
@@ -4749,6 +4754,7 @@ vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 vendor/lib64/libapmonitor_vendor.so
+vendor/lib64/libforkexecwrap.so
 vendor/lib64/libwapi.so
 vendor/lib64/libwifitest.so
 vendor/lib64/libwo.so
@@ -4758,26 +4764,3 @@ vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so
-
-# Misc
-odm/bin/hw/vendor.oplus.hardware.misc@1.0-service
-odm/etc/devices_config/devices_config.json
-odm/etc/init/init.oplus.reserve.rc
-odm/etc/init/vendor.oplus.hardware.misc@1.0-service.rc
-odm/etc/permissions/com.oplus.features.xml
-odm/etc/permissions/vendor-oplus-hardware-misc.xml
--odm/etc/vintf/manifest/manifest_oplus_misc.xml
-odm/lib/vendor.oplus.hardware.misc@1.0.so
-odm/lib64/vendor.oplus.hardware.misc@1.0.so
-vendor/bin/dconfig
-vendor/bin/dexecutor
-vendor/bin/em_hidl
-vendor/bin/meta_tst
-vendor/etc/init/em_hidl_user.rc
-vendor/etc/MNL_Config.xml
-vendor/etc/mpe.conf
-vendor/etc/ncf_pack.ncf
-vendor/lib/libminiui.so
-vendor/lib64/libforkexecwrap.so
-vendor/lib64/libminiui.so
-vendor/lib64/libml_util.so
