@@ -4430,15 +4430,12 @@ vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
 odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-oplusSensor.xml
 odm/etc/sensor/sensor_config.json
 -odm/etc/vintf/manifest/manifest_oplusSensor.xml
 odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so
 odm/lib64/libhwm-oplus.so
 odm/lib64/oplus.sensors.ssc.so
 odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so
-vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
-vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
 vendor/etc/sensors/hals.conf
 vendor/lib/libhwm.so
 vendor/lib/libimgsensorca.so
@@ -4451,6 +4448,10 @@ vendor/lib64/libimgsensorca.so
 vendor/lib64/libksensor.so
 vendor/lib64/librgbwlightsensor.so
 vendor/lib64/libsensor_custom.so
+
+# Sensors - from RMX3381_11_C.07
+vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek|718c277ccf55be7c0d95fe146e143db2ff13f812
+vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc|f36906e5f333a12bd4f5efab8a242d5894759e96
 
 # Soter
 -system_ext/app/SoterService/SoterService.apk
