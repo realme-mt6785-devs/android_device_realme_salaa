@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/realme/salaa/device.mk)
 
-# Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
-PRODUCT_NAME := arrow_salaa
+PRODUCT_NAME := aosp_salaa
 PRODUCT_DEVICE := salaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
