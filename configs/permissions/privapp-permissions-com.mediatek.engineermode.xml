@@ -10,5 +10,7 @@
         <permission name="android.permission.READ_LOGS"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
     </privapp-permissions>
 </permissions>
