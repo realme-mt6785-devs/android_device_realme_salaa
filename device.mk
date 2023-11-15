@@ -168,6 +168,9 @@ PRODUCT_BOOT_JARS += \
     oplus-framework \
     oplus-framework-telephony
 
+PRODUCT_PACKAGES += \
+    libshim_vtservice
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml
 
