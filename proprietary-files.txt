@@ -4564,14 +4564,6 @@ vendor/lib/libthermalalgo.so
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib64/hw/thermal_hal.so
 
-# Touch
-odm/bin/hw/vendor.oplus.hardware.touch@1.0-service
-odm/etc/init/vendor.oplus.hardware.touch@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-touch.xml
--odm/etc/vintf/manifest/manifest_oplus_touch.xml
-odm/lib/vendor.oplus.hardware.touch@1.0.so
-odm/lib64/vendor.oplus.hardware.touch@1.0.so
-
 # Trans
 odm/bin/hw/vendor-oplus-hardware-transmessage@1.0-service
 odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc
