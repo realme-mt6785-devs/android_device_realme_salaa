@@ -3875,7 +3875,6 @@ framework/mediatek-gwsdv2.jar
 framework/mediatek-ims-extension-plugin.jar
 framework/mediatek-ims-legacy.jar
 -framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
 framework/mediatek-wfo-legacy.jar
 -framework/oplus-framework-telephony.jar
@@ -3950,7 +3949,8 @@ vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # IMS - from RMX2156_11_F.15
--priv-app/ImsService/ImsService.apk|f18e3b19b5955eb595a52288fd3b4cb7eae14dcc
+-framework/mediatek-telephony-base.jar|168892505929d06405018e1dd007e523d90e94d0
+-priv-app/ImsService/ImsService.apk|755cbe94aab80d1c5b98b13a047487d382bfa449
 
 # Kernel Modules
 vendor/etc/init/init.fmradio_drv.rc
