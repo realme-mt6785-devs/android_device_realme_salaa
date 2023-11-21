@@ -3288,14 +3288,6 @@ vendor/lib64/libsensor_custom.so
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek|718c277ccf55be7c0d95fe146e143db2ff13f812
 vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc|f36906e5f333a12bd4f5efab8a242d5894759e96
 
-# Stability
-odm/bin/hw/vendor.oplus.hardware.stability.oplus_project@1.0-service
-odm/etc/init/vendor.oplus.hardware.stability.oplus_project@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-stability-oproject.xml
--odm/etc/vintf/manifest/manifest_oplus_stability_project.xml
-odm/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so
-odm/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so
-
 # Subsys
 odm/lib/vendor.oplus.hardware.subsys@1.0.so
 odm/lib64/vendor.oplus.hardware.subsys@1.0.so
