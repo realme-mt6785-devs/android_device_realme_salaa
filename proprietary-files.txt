@@ -2706,15 +2706,6 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/libDR.so
 
-# Game
-odm/bin/hw/vendor.oplus.hardware.gameopt@1.0-service
-odm/etc/init/vendor.oplus.hardware.gameopt@1.0-service.rc
--odm/etc/vintf/manifest/manifest_oplus_gameopt.xml
-odm/lib/hw/vendor.oplus.hardware.gameopt@1.0-impl.so
-odm/lib/vendor.oplus.hardware.gameopt@1.0.so
-odm/lib64/hw/vendor.oplus.hardware.gameopt@1.0-impl.so
-odm/lib64/vendor.oplus.hardware.gameopt@1.0.so
-
 # Hotword Enrollment
 -my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -my_product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4.apk:product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
