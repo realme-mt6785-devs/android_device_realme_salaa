@@ -18,9 +18,6 @@ vendor.nxp.nxpese::INxpEse                                                    u:
 vendor.oplus.hardware.orms.ormsHalService::IOrmsHalService                    u:object_r:hal_orms_oplus_hwservice:s0
 vendor.oplus.hardware.orms::IOrmsHalProxy                                     u:object_r:hal_orms_oplus_hwservice:s0
 
-# Performance
-vendor.oplus.hardware.performance::IPerformance                               u:object_r:hal_performance_oplus_hwservice:s0
-
 # Radio
 vendor.oplus.hardware.radio::IOplusRadio                                      u:object_r:hal_telephony_hwservice:s0
 vendor.oplus.hardware.appradio::IOplusAppRadio                                u:object_r:hal_telephony_hwservice:s0
