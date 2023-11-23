@@ -3287,14 +3287,8 @@ odm/lib/vendor.oplus.hardware.subsys@1.0.so
 odm/lib64/vendor.oplus.hardware.subsys@1.0.so
 
 # TEE
-odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
-odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
-odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml
--odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml
 odm/lib/libtrustonic_keybox_ca.so
-odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so
 odm/lib64/libtrustonic_keybox_ca.so
-odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
 odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin
 odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin
 odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin
