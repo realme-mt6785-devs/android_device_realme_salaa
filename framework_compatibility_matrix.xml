@@ -330,14 +330,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.cryptoeng</name>
-    <version>1.0</version>
-    <interface>
-        <name>ICryptoeng</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.oplus.hardware.displaypanelfeature</name>
     <version>1.0</version>
     <interface>
