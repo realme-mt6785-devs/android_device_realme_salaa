@@ -3029,14 +3029,6 @@ vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libtflite_mtk.so
 
-# Novatek
-odm/etc/boe_nt37800_2048_nt37800_eyeprotect_data.xml
-odm/etc/boe_nt37800_2048_nt37800_srgb_eyeprotect_data.xml
-odm/etc/jdi_nt_nt36672c_dsjm_eyeprotect_data.xml
-odm/etc/tianma_nt36672c_tianma_eyeprotect_data.xml
-odm/etc/tm_nt37701_2048_tm_nt37701_42_eyeprotect_data.xml
-odm/etc/tm_nt37701_2048_tm_nt37701_42_srgb_eyeprotect_data.xml
-
 # ORMS
 odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service
 odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc
@@ -3245,10 +3237,6 @@ vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Reserve (OPLUS)
 odm/etc/init/init.oplus.reserve.rc
-
-# Samsung
-odm/etc/samsung2048_ana6705_samsung_eyeprotect_data.xml
-odm/etc/samsung2048_ana6705_samsung_srgb_eyeprotect_data.xml
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
