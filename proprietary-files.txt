@@ -2319,11 +2319,8 @@ vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so
 
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
-odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
-odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml
 -odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
 odm/lib/hw/fingerprint.goodix_G2.default.so
 odm/lib/hw/fingerprint.goodix_G3.default.so
@@ -2337,7 +2334,6 @@ odm/lib/libgf_hal_G5.so
 odm/lib/libgf_hal_G6.so
 odm/lib/libgf_hal_G7.so
 odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 odm/lib/vendor.oplus.hardware.commondcs@1.0.so
 odm/lib64/hw/fingerprint.focaltech.default.so
 odm/lib64/hw/fingerprint.goodix_G2.default.so
@@ -2355,13 +2351,9 @@ odm/lib64/libgf_hal_G5.so
 odm/lib64/libgf_hal_G6.so
 odm/lib64/libgf_hal_G7.so
 odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
-odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so
-odm/init.oplus.face.rc
 odm/init.oplus.fingerprints.rc
 odm/init.oplus.seccommon.rc
-system_ext/lib/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
-system_ext/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so
 vendor/lib/vendor.oplus.hardware.commondcs@1.0.so
 vendor/lib64/vendor.oplus.hardware.commondcs@1.0.so
 
@@ -2585,9 +2577,6 @@ vendor/lib64/libDR.so
 # Hotword Enrollment
 -my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -my_product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4.apk:product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
-
-# IFAA
--odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
 
 # IMS
 bin/vtservice
