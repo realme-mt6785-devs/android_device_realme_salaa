@@ -289,14 +289,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.biometrics.fingerprintpay</name>
-    <version>1.0</version>
-    <interface>
-        <name>IFingerprintPay</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.oplus.hardware.camera.slogan</name>
     <version>1.0</version>
     <interface>
