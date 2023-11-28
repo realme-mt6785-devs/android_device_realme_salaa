@@ -32,9 +32,6 @@ vendor/lib64/libapusys_edma.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
 
-# AVB
-vendor/etc/oplus_avb.pubkey
-
 # Audio
 odm/etc/audio/awinic/AW_DSP.bin
 odm/firmware/awinic_haptic_gun_params.bin
