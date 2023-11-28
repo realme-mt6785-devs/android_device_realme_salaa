@@ -135,8 +135,6 @@ vendor/lib64/libvow_ap_test_nn.so
 vendor/lib64/vendor.mediatek.hardware.atci@1.0.so
 
 # Audio (Hardware)
-system_ext/lib/vendor.mediatek.hardware.audio@7.1.so
-system_ext/lib64/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/hw/audio.primary.mt6785.so
@@ -271,12 +269,6 @@ odm/etc/audio_effects.xml
 
 # Bluetooth
 odm/bin/init.oplus.btChangePermission.sh
-system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-system_ext/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
-system_ext/lib/vendor.oplus.hardware.bluetooth_audio_extend@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-system_ext/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
-system_ext/lib64/vendor.oplus.hardware.bluetooth_audio_extend@2.1.so
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/bin/autobt
 vendor/bin/bip
@@ -350,12 +342,6 @@ odm/lib64/libstfaceunlockppl.so
 odm/lib64/libtfavib.so
 odm/lib64/vendor.oplus.hardware.camera.slogan@1.0.so
 odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
-system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
-system_ext/lib/vendor.oplus.hardware.cameraMDM@1.0.so
-system_ext/lib/vendor.oplus.hardware.cameraMDM@2.0.so
-system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so
-system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
-system_ext/lib64/vendor.oplus.hardware.cameraMDM@2.0.so
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -2183,10 +2169,6 @@ odm/lib64/libdpservice.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
 odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
-system_ext/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so
-system_ext/lib/vendor.pixelworks.hardware.display@1.0.so
-system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
-system_ext/lib64/vendor.pixelworks.hardware.display@1.0.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
