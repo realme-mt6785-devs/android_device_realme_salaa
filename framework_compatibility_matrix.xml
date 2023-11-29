@@ -304,14 +304,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.engineer</name>
-    <version>1.0</version>
-    <interface>
-        <name>IEngineer</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.oplus.hardware.mtkmodemaci</name>
     <version>1.0</version>
     <interface>
