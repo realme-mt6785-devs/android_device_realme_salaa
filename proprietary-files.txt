@@ -301,16 +301,12 @@ vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/libcdsprpc.so
 
 # Camera
--odm/etc/vintf/manifest/manifest_oplus_camera_slogan.xml
-odm/lib/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so
 odm/lib/libRbsFlow.so
 odm/lib/libRbsFlow_cap.so
 odm/lib/libaiboost_sr.so
 odm/lib/libarcsoft_scbokeh_video.so
 odm/lib/libtfavib.so
-odm/lib/vendor.oplus.hardware.camera.slogan@1.0.so
 odm/lib/vendor.oplus.hardware.engcamera@1.0.so
-odm/lib64/hw/vendor.oplus.hardware.camera.slogan@1.0-impl.so
 odm/lib64/libCipCommon.so
 odm/lib64/libCipParamProcess.so
 odm/lib64/libCipParameter0.so
@@ -337,7 +333,6 @@ odm/lib64/libremosaic_wrapper.so
 odm/lib64/libremosaiclib.so
 odm/lib64/libstfaceunlockppl.so
 odm/lib64/libtfavib.so
-odm/lib64/vendor.oplus.hardware.camera.slogan@1.0.so
 odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
