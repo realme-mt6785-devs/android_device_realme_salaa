@@ -329,14 +329,6 @@
     </interface>
 </hal>
 <hal format="hidl" optional="true">
-    <name>vendor.oplus.hardware.rpmh</name>
-    <version>2.0</version>
-    <interface>
-        <name>IRpmh</name>
-        <instance>default</instance>
-    </interface>
-</hal>
-<hal format="hidl" optional="true">
     <name>vendor.oplus.hardware.wifi.supplicant</name>
     <version>2.0</version>
     <interface>
