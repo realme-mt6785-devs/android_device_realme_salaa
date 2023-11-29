@@ -2154,18 +2154,12 @@ vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/libwvhidl.so
 
 # Display
-odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service
-odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc
-odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml
--odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml
 odm/lib/libdpservice.so
 odm/lib/libswresample.so
 odm/lib/libswscale.so
-odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so
 odm/lib64/libdpservice.so
 odm/lib64/libswresample.so
 odm/lib64/libswscale.so
-odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
