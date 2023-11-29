@@ -2877,14 +2877,6 @@ odm/bin/rpmbengclient_test
 odm/lib/librpmbengclient.so
 odm/lib64/librpmbengclient.so
 
-# RPMH
-odm/bin/hw/vendor.oplus.hardware.rpmh@2.0-service
-odm/etc/init/vendor.oplus.hardware.rpmh@2.0-service.rc
-odm/etc/permissions/vendor.oplus.hardware.rpmh-V20.xml
--odm/etc/vintf/manifest/manifest_oplus_rpmh-V20.xml
-odm/lib/vendor.oplus.hardware.rpmh@2.0.so
-odm/lib64/vendor.oplus.hardware.rpmh@2.0.so
-
 # Radio
 odm/bin/hw/vendor.oplus.hardware.mtkmodemaci@1.0-service
 odm/etc/init/vendor.oplus.hardware.mtkmodemaci@1.0-service.rc
