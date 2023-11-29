@@ -2269,14 +2269,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 # Engineering
 lib/libem_support_jni.so
 lib64/libem_support_jni.so
-odm/bin/hw/vendor-oplus-hardware-engineer@1.0-service
-odm/bin/engineer_vendor_shell.sh
-odm/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc
-odm/etc/init/vendor_engineermode.rc
-odm/etc/permissions/vendor-oplus-hardware-engineer.xml
--odm/etc/vintf/manifest/manifest_engineer.xml
-odm/lib/vendor.oplus.hardware.engineer@1.0.so
-odm/lib64/vendor.oplus.hardware.engineer@1.0.so
 -priv-app/EngineerMode/EngineerMode.apk
 vendor/bin/em_hidl
 vendor/etc/init/em_hidl_user.rc
