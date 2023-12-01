@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2016, The Android Open Source Project
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+-->
+<resources>
+    <!-- Default for Settings.Global.DEVICE_NAME $1=MODEL-->
+    <string name="def_device_name_simple">realme 7</string>
+</resources>
