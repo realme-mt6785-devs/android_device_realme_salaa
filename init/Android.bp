@@ -21,10 +21,10 @@ cc_library_static {
         "init.cpp"
     ],
     include_dirs: [
-        "system/libbase/include",
         "system/core/init"
     ],
     shared_libs: [
-        "libbase"
+        "libbase",
+        "libfs_mgr"
     ]
 }

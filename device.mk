@@ -259,6 +259,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_PACKAGES += \
+    SettingsProviderOverlay7 \
+    SettingsProviderOverlayNarzo20Pro \
+    SettingsProviderOverlayNarzo30 \
     WifiOverlay \
     TetheringConfigOverlay \
     CarrierConfigOverlay

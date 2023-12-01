@@ -14,4 +14,5 @@ vendor.debug.cameralog.enable      u:object_r:vendor_oplus_prop:s0
 vendor.debug.tpi.                  u:object_r:vendor_oplus_prop:s0
 
 # NFC
+ro.vendor.device                   u:object_r:vendor_variant_prop:s0
 ro.vendor.device.variant           u:object_r:vendor_variant_prop:s0
