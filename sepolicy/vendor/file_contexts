@@ -5,6 +5,7 @@
 
 # Charging
 /dev/oplus_chg                                                                                                         u:object_r:oplus_charger_device:s0
+/sys/class/oplus_chg/battery/voocchg_ing                                                                               u:object_r:vendor_sysfs_battery_supply:s0
 /(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.charger@1\.0-service                                                 u:object_r:hal_charger_oplus_exec:s0
 
 # Display
