@@ -258,23 +258,12 @@ odm/etc/audio/oplus_audio_features.xml
 odm/etc/audio_effects.xml
 
 # Bluetooth
-odm/bin/init.oplus.btChangePermission.sh
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/bin/autobt
 vendor/bin/bip
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 vendor/etc/init/init.bip.rc
 vendor/etc/init/init.bt_drv.rc
-vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
-vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
-vendor/lib/libbluetooth_audio_session_mediatek.so
-vendor/lib/libbluetooth_hw_test.so
-vendor/lib/libbluetooth_mtk.so
-vendor/lib/libbluetooth_mtk_pure.so
-vendor/lib/libbluetooth_relayer.so
-vendor/lib/libbluetoothem_mtk.so
-vendor/lib/libbt-vendor.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
