@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "SalaaOplusDozeOverlay",
+    product_specific: true,
+}
