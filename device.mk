@@ -256,13 +256,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_PACKAGES += \
+    SalaaFrameworksOverlay \
+    SalaaOplusDozeOverlay \
+    SalaaSettingsOverlay \
+    SalaaSystemUIOverlay \
+    SalaaTelephonyOverlay \
     SettingsProviderOverlay7 \
     SettingsProviderOverlayNarzo20Pro \
     SettingsProviderOverlayNarzo30 \
