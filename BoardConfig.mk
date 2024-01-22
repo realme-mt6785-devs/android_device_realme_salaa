@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2023-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -128,7 +128,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # SPL
-VENDOR_SECURITY_PATCH := 2023-07-05
+VENDOR_SECURITY_PATCH := 2024-01-05
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk

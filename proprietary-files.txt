@@ -1,4 +1,4 @@
-# Device proprietary files - from RMX2156_11_F.15, unless pinned
+# Device proprietary files - from RMX2156_11_F.17, unless pinned
 
 # ADSP
 vendor/lib64/libadsprpc.so
@@ -1493,9 +1493,9 @@ vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/libDR.so
 
-# Hotword Enrollment
--my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar
--my_product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4.apk:product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
+# Hotword Enrollment - from RMX2156_11_F.15
+-my_product/framework/com.android.hotwordenrollment.common.util.jar:system_ext/framework/com.android.hotwordenrollment.common.util.jar|c764b636e0be426a66be09dd08ab9c1921327ef0
+-my_product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4.apk:product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk|4620e6daa921454e4cbfc49910ba175426c18888
 
 # IMS - from TECNO-CK9n UP1A.230519.001
 system_ext/bin/vtservice|59adc81ee1ad1f3fb4942cd6e8e7100325002eb2
