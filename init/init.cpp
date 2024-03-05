@@ -154,7 +154,6 @@ void set_device_props(void){
 		}
     }
 
-    set_ro_build_prop("fingerprint", fingerprint);
     set_ro_build_prop("device", device);
     set_ro_build_prop("model", model);
     set_ro_build_prop("name", model);
@@ -163,6 +162,7 @@ void set_device_props(void){
     property_override("ro.vendor.device", device.c_str());
     property_override("bluetooth.device.default_name", market_name.c_str());
     property_override("vendor.usb.product_string", market_name.c_str());
+    property_override("ro.product.build.fingerprint", fingerprint.c_str());
 
 }
 
