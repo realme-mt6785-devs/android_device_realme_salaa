@@ -309,19 +309,13 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-mediatek \
+    android.hardware.power-service.mediatek-libperfmgr \
     android.hardware.power-V2-ndk_platform.vendor \
-    android.hardware.power@1.0.vendor \
-    android.hardware.power@1.1.vendor \
     android.hardware.power@1.2.vendor \
-    vendor.mediatek.hardware.mtkpower@1.0.vendor \
-    vendor.mediatek.hardware.mtkpower@1.1.vendor \
+    libmtkperf_client_vendor \
+    libmtkperf_client \
+    vendor.mediatek.hardware.mtkpower@1.2-service.stub \
     vendor.mediatek.hardware.mtkpower@1.2.vendor
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    $(LOCAL_PATH)/configs/perf/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
-    $(LOCAL_PATH)/configs/perf/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
 
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
@@ -355,7 +349,7 @@ PRODUCT_PACKAGES += \
     factory_init.project.rc \
     factory_init.rc \
     init.ago.rc \
-    init.cgroup.rc \
+    init.mt6785.power.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \
     init.modem.rc \
@@ -409,6 +403,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/mediatek \
     hardware/oplus
 
