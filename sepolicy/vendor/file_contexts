@@ -11,6 +11,9 @@
 # Display
 /dev/oplus_display                                                                                                     u:object_r:oplus_display_device:s0
 
+# Latency
+/dev/cpu_dma_latency                                                                                                   u:object_r:latency_device:s0
+
 # Light
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.salaa                                                 u:object_r:hal_light_default_exec:s0
 

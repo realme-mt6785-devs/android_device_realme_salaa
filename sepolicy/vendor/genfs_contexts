@@ -26,6 +26,9 @@ genfscon proc /fp_id                                u:object_r:vendor_proc_finge
 genfscon proc /fp_kernel_event                      u:object_r:vendor_proc_fingerprint:s0
 genfscon sysfs /devices/platform/fpc_interrupt      u:object_r:sysfs_fingerprint:s0
 
+# Graphics
+genfscon sysfs /devices/platform/13040000.mali      u:object_r:sysfs_gpu:s0
+
 # NFC
 genfscon proc /oplus_nfc/chipset                    u:object_r:vendor_proc_nfc_chipset:s0
 
@@ -47,6 +50,8 @@ genfscon proc /oplusVersion                         u:object_r:vendor_proc_oplus
 genfscon proc /sys/kernel/sched_stune_task_threshold u:object_r:proc_sched_stune:s0 
 genfscon proc /sys/kernel/sched_assist_enabled       u:object_r:proc_sched_assist:s0
 genfscon proc /sys/kernel/sched_assist_scene         u:object_r:proc_sched_assist:s0
+genfscon sysfs /devices/system/cpu/cpufreq/mtk/.cluster_(min|max)_freq          u:object_r:sysfs_mtk_cpufreq:s0
+genfscon sysfs /kernel/gpu/gpu_(min|max)_clock                                  u:object_r:sysfs_mtk_gpufreq:s0
 
 # Wakeup
 genfscon sysfs /devices/platform/charger/power_supply/usb/wakeup28                                      u:object_r:sysfs_wakeup:s0
