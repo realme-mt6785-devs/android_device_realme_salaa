@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/realme/salaa/device.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_salaa
+PRODUCT_NAME := cipher_salaa
 PRODUCT_DEVICE := salaa
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
